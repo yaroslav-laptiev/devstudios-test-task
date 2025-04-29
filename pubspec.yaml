@@ -1,0 +1,61 @@
+name: devstudios_test_task
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+  freezed_annotation: ^3.0.0
+  auto_route: ^10.0.1
+  flutter_screenutil: ^5.9.3
+  injectable: ^2.5.0
+  get_it: ^8.0.3
+  retrofit: ^4.4.2
+  dio: ^5.8.0+1
+  dartz: ^0.10.1
+  flutter_bloc: ^9.1.0
+  bloc: ^9.0.0
+  flutter_svg: ^2.1.0
+  smooth_page_indicator: ^1.2.1
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.15
+  freezed: ^3.0.6
+  auto_route_generator: ^10.0.0
+  injectable_generator: ^2.7.0
+  retrofit_generator: ^9.1.9
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/svg/
+    - assets/svg/zodiac_wheel/
+    - assets/png/
+    - assets/png/2x/
+    - assets/png/3x/
+
+
+  fonts:
+    - family: TiemposHeadline
+      fonts:
+        - asset: assets/fonts/TestTiemposHeadline-Regular-BF66457a508e31a.otf
+    - family: SFProDisplay
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Display-Semibold.otf
+          weight: 600
